@@ -1,0 +1,14 @@
+C:\Users\lenovo\source\repos\ChatApp\ChatApp\bin\Debug\netstandard2.0\ChatApp.deps.json
+C:\Users\lenovo\source\repos\ChatApp\ChatApp\bin\Debug\netstandard2.0\ChatApp.dll
+C:\Users\lenovo\source\repos\ChatApp\ChatApp\bin\Debug\netstandard2.0\ref\ChatApp.dll
+C:\Users\lenovo\source\repos\ChatApp\ChatApp\bin\Debug\netstandard2.0\ChatApp.pdb
+C:\Users\lenovo\source\repos\ChatApp\ChatApp\obj\Debug\netstandard2.0\ChatApp.csprojAssemblyReference.cache
+C:\Users\lenovo\source\repos\ChatApp\ChatApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\lenovo\source\repos\ChatApp\ChatApp\obj\Debug\netstandard2.0\HomePage.xaml.g.cs
+C:\Users\lenovo\source\repos\ChatApp\ChatApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\lenovo\source\repos\ChatApp\ChatApp\obj\Debug\netstandard2.0\ChatApp.AssemblyInfoInputs.cache
+C:\Users\lenovo\source\repos\ChatApp\ChatApp\obj\Debug\netstandard2.0\ChatApp.AssemblyInfo.cs
+C:\Users\lenovo\source\repos\ChatApp\ChatApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\lenovo\source\repos\ChatApp\ChatApp\obj\Debug\netstandard2.0\ChatApp.dll
+C:\Users\lenovo\source\repos\ChatApp\ChatApp\obj\Debug\netstandard2.0\ref\ChatApp.dll
+C:\Users\lenovo\source\repos\ChatApp\ChatApp\obj\Debug\netstandard2.0\ChatApp.pdb
