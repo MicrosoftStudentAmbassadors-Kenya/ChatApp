@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 
 using Foundation;
@@ -23,7 +24,11 @@ namespace ChatApp.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
-            LoadApplication(new App());
+
+            string dbName = "chat_app.sqlite";
+            string dPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
+            string combinedPath = Path.Combine(dPath, dbName);
+            LoadApplication(new App(combinedPath));
 
             return base.FinishedLaunching(app, options);
         }

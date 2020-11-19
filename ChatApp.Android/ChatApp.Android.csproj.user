@@ -2,6 +2,6 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <AndroidDesignerPreferredTheme>Theme.AppCompat.Light.NoActionBar</AndroidDesignerPreferredTheme>
-    <SelectedDevice>HUAWEI MYA-L22</SelectedDevice>
+    <SelectedDevice>TECNO -C9</SelectedDevice>
   </PropertyGroup>
 </Project>

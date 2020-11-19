@@ -6,12 +6,21 @@ namespace ChatApp
 {
     public partial class App : Application
     {
+        public static string DatabaseLocation;
         public App()
         {
             InitializeComponent();
 
             MainPage = new NavigationPage (new MainPage());
         
+        }
+
+        public App(string dbLocation)
+        {
+            InitializeComponent();
+
+            MainPage = new NavigationPage(new MainPage());
+            DatabaseLocation = dbLocation;
         }
 
         protected override void OnStart()

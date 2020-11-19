@@ -5,6 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using SQLite;
+using ChatApp.Model;
 
 namespace ChatApp
 {
@@ -28,6 +30,16 @@ namespace ChatApp
             }
             else
             {
+                User usr = new User()
+                {
+                    username = EmailEntry.Text
+                };
+
+                SQLiteConnection conn = new SQLiteConnection(App.DatabaseLocation);
+                conn.CreateTable<User>();
+                conn.Insert(usr);
+                conn.Close();
+
                 Navigation.PushAsync(new HomePage());
             }
             
